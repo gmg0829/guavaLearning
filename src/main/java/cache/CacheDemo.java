@@ -26,6 +26,8 @@ public class CacheDemo
                     }
 
                 });
+        System.out.println("jerry value:"+cahceBuilder.apply("jerry"));
+        System.out.println("jerry value:"+cahceBuilder.get("jerry"));
         cahceBuilder.put("harry", "ssdded");
         System.out.println("harry value:"+cahceBuilder.get("harry"));
     }
